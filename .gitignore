@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# 数据集 - 不要上传大文件到GitHub
+# 保留小样本数据，大文件用.gitignore排除
+*.csv
+*.pkl
+*.h5
+*.npy
+*.npz
+*.db
+*.sqlite
+*.zip
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# 日志
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+
+# 机器学习模型文件（通常很大）
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.model
+
+# 其他
+*.bak
+*.backup
+~$*
