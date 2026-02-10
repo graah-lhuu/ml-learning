@@ -1,0 +1,34 @@
+# requirements.txt
+"""
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+"""
+
+# README.md
+"""
+# 学生成绩预测 - 线性回归项目
+
+## 项目描述
+使用线性回归模型预测学生成绩，基于以下特征：
+- 学习时间
+- 睡眠时间
+- 看MYGO!!!!!时间
+- 下国际象棋时间
+- 学法语时间
+
+## 文件结构
+F:\courses\python\ml-learning\
+├── data\
+│ └── students_score_prediction\
+│ └── student_scores.csv
+└── projects\
+└── 01-linear-regression\
+└── students_score_prediction\
+├── generate_data.py # 生成模拟数据
+├── linear_regression.py # 线性回归实现
+├── run_project.py # 运行脚本
+├── requirements.txt # 依赖包
+└── README.md # 说明文档
