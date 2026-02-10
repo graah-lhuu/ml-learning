@@ -16,7 +16,7 @@ ENV/
 
 # 数据集 - 不要上传大文件到GitHub
 # 保留小样本数据，大文件用.gitignore排除
-*.csv
+
 *.pkl
 *.h5
 *.npy
